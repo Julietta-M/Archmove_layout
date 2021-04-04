@@ -1,0 +1,66 @@
+.build-needs {
+  padding-left: 60px;
+}
+
+.build-needs__title {
+  font-family: 'Tinos', serif;
+  font-weight: bold;
+font-size: 48px;
+line-height: 124%;
+letter-spacing: -0.04em;
+}
+
+.build-needs__block {
+  display: flex;
+}
+
+.build-needs__block-information {
+  padding: 20px 0 0 150px;
+}
+
+.block {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.block__image {
+  padding-right: 35px;
+}
+
+.block__image-one {
+  padding-right: 30px;
+}
+
+.block__title {
+  font-weight: bold;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0.01em;
+margin: 0;
+}
+
+.block__description {
+  font-size: 16px;
+line-height: 160%;
+width: 310px;
+letter-spacing: 0.01em;
+}
+
+.build-needs__button {
+  width: 179px;
+height: 56px;
+
+background: #FD665E;
+border-radius: 4px;
+border: none;
+color: #fff;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+&:hover {
+  background-color: #f74d44;
+}
+}

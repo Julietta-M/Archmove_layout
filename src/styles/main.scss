@@ -1,7 +1,35 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "search-form";
+@import "header";
+@import "nav";
+@import "build-house";
+@import "gallery";
+@import "build-needs";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  background: $c-gray;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer !important;
+}
+
+section {
+  margin: 50px 0;
+}
+
+input {
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 50px 100px;
+  max-width: 1300px;
 }
