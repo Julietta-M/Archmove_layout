@@ -4,13 +4,16 @@
 @import "build-house";
 @import "gallery";
 @import "build-needs";
+@import "feedback";
+@import "realizing";
+@import "partners";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
